@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: Lato, sans-serif;
   display: block;
   background-color: #eee9de;
   line-height: 1.5;
@@ -9,15 +9,8 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
-/* body {
-  max-width: 25em;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: center;
-} */
 
-
-img{
+img {
   display: block;
   width: 100%;
   max-width: 25em;
