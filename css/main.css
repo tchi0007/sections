@@ -1,6 +1,31 @@
 html {
+  box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  display: inline;
+  display: block;
   background-color: #eee9de;
   line-height: 1.5;
+}
+
+/* body {
+  max-width: 25em;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+} */
+
+
+.img{
+  display: inline-block;
+  min-width: 10em;
+  max-width: 25em;
+}
+.para {
+  display: inline;
+  min-width: 10em;
+  max-width: 25em;
+}
+
+div {
+  display: inline-block;
+  max-width: 25em;
 }
