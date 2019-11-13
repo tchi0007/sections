@@ -6,6 +6,9 @@ html {
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 /* body {
   max-width: 25em;
   margin-left: auto;
@@ -14,18 +17,60 @@ html {
 } */
 
 
-.img{
-  display: inline-block;
-  min-width: 10em;
+img{
+  display: block;
+  width: 100%;
   max-width: 25em;
-}
-.para {
-  display: inline;
-  min-width: 10em;
-  max-width: 25em;
+  padding: 1em;
 }
 
-div {
+.img {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.para {
   display: inline-block;
   max-width: 25em;
+  padding: 1em;
+  text-align: left;
+  vertical-align: middle;
+}
+
+h2 {
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+p {
+  text-align: center;
+  line-height: 1.5;
+  padding-top: .9em;
+  margin-bottom: 1.5em;
+}
+
+body {
+  margin: 0;
+}
+
+.btn {
+  display: inline-block;
+  color: #333;
+  background-color: #eee9de;
+  border: 3px solid #333;
+  border-radius: 6px;
+  padding: .4em .75em .5em;
+  line-height: 1.5;
+  text-align: left;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #666;
 }
